@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luna Jewel | متجر المجوهرات الفاخرة</title>
+    <meta
+      name="description"
+      content="متجر مجوهرات فاخر يقدم تصميمات أنيقة، قطع مميزة، واستشارات خاصة لملفاتك وذكرياتك المميزة."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="#" class="brand" aria-label="Luna Jewel">
+            <span class="brand-mark">L</span>
+            <span class="brand-text">Luna Jewel</span>
+          </a>
+
+          <nav class="main-nav" aria-label="التنقل الرئيسي">
+            <a href="#home" class="active">الرئيسية</a>
+            <a href="#collections">المجموعات</a>
+            <a href="#featured">المنتجات المميزة</a>
+            <a href="#story">قصتنا</a>
+            <a href="#reviews">التقييمات</a>
+          </nav>
+
+          <div class="header-actions">
+            <button class="icon-button" aria-label="البحث">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 015.86 12.8l4.39 4.39 1.41-1.41-4.39-4.39A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/></svg>
+            </button>
+            <button class="icon-button" aria-label="المفضلة">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5A4.5 4.5 0 016.5 4c1.74 0 3.41.81 4.5 2.09A6.02 6.02 0 0115.5 4 4.5 4.5 0 0120 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </button>
+            <button class="cart-button" aria-label="السلة">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4zM6.2 6h14.6l-1.7 8.5A2 2 0 0117.1 16H9.4a2 2 0 01-1.96-1.58L5.1 4.1A1 1 0 004.1 3H2V1h3.2l.82 4.6H20v2H6.2zm2.1 10h8.59l1.23-6H7.07l1.23 6z"/></svg>
+              <span>السلة</span>
+              <span class="cart-count" id="cartCount">0</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="container hero-inner">
+            <div class="hero-content">
+              <p class="eyebrow">تصاميم فاخرة لعشاق الروعة</p>
+              <h1>تحف مصممة لتبقى ذكرى كل لحظة</h1>
+              <p class="lead">
+                اكتشف مجموعة مختارة بعناية من المجوهرات الفاخرة، من الخواتم السحرية
+                إلى السلاسل الأنيقة، لتكتمل بها قصة أسلوبك.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#featured" class="primary-btn">استكشف المجموعة</a>
+                <a href="#story" class="secondary-btn">قصتنا</a>
+              </div>
+
+              <ul class="hero-highlights" aria-label="مزايا المتجر">
+                <li>توصيل مجاني</li>
+                <li>ضمان أصالة 100%</li>
+                <li>تصاميم مخصصة</li>
+              </ul>
+            </div>
+
+            <div class="hero-visual" aria-label="صورة مجوهرات فاخر">
+              <div class="visual-card card-main">
+                <img
+                  src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=900&q=80"
+                  alt="مجموعة مجوهرات فاخرة"
+                />
+              </div>
+              <div class="visual-card card-badge">
+                <span>المنتج المميز</span>
+                <strong>قُرص الفجر</strong>
+                <small>١,٢٩٠ ر.س</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="categories" id="collections">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">المجموعات</p>
+              <h2>اختر ما يلائم نمطك</h2>
+            </div>
+
+            <div class="category-grid">
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=80"
+                  alt="خواتم"
+                />
+                <div class="category-content">
+                  <h3>خواتم</h3>
+                  <a href="#featured">تصفح الآن</a>
+                </div>
+              </article>
+
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
+                  alt="سلاسل"
+                />
+                <div class="category-content">
+                  <h3>سلاسل</h3>
+                  <a href="#featured">تصفح الآن</a>
+                </div>
+              </article>
+
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?auto=format&fit=crop&w=800&q=80"
+                  alt="أساور"
+                />
+                <div class="category-content">
+                  <h3>أساور</h3>
+                  <a href="#featured">تصفح الآن</a>
+                </div>
+              </article>
+
+              <article class="category-card">
+                <img
+                  src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=80"
+                  alt="مجوهرات مخصصة"
+                />
+                <div class="category-content">
+                  <h3>مخصصة</h3>
+                  <a href="#featured">تصفح الآن</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="featured" id="featured">
+          <div class="container">
+            <div class="section-heading heading-row">
+              <div>
+                <p class="eyebrow">منتجاتنا</p>
+                <h2>الأكثر طلباً</h2>
+              </div>
+
+              <div class="product-filters" aria-label="فلاتر المنتجات">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="rings">خواتم</button>
+                <button class="filter-btn" data-filter="necklaces">سلاسل</button>
+                <button class="filter-btn" data-filter="bracelets">أساور</button>
+              </div>
+            </div>
+
+            <div class="product-grid">
+              <article class="product-card" data-category="rings">
+                <div class="product-image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1601821765780-754fa98637c4?auto=format&fit=crop&w=800&q=80"
+                    alt="خاتم لؤلؤة"
+                  />
+                  <button class="wishlist" aria-label="إضافة إلى المفضلة">♥</button>
+                </div>
+                <div class="product-body">
+                  <div class="product-topline">
+                    <span>خواتم</span>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                  <h3>خاتم لؤلؤة فجر</h3>
+                  <div class="product-meta">
+                    <strong>١٬٣٩٠ ر.س</strong>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card" data-category="necklaces">
+                <div class="product-image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=80"
+                    alt="سلسلة ذهبية"
+                  />
+                  <button class="wishlist" aria-label="إضافة إلى المفضلة">♥</button>
+                </div>
+                <div class="product-body">
+                  <div class="product-topline">
+                    <span>سلاسل</span>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                  <h3>سلسلة نُجوم الهدى</h3>
+                  <div class="product-meta">
+                    <strong>١٬٨٥٠ ر.س</strong>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card" data-category="bracelets">
+                <div class="product-image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=800&q=80"
+                    alt="إسورة ذهبية"
+                  />
+                  <button class="wishlist" aria-label="إضافة إلى المفضلة">♥</button>
+                </div>
+                <div class="product-body">
+                  <div class="product-topline">
+                    <span>أساور</span>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                  <h3>إسورة قمرية</h3>
+                  <div class="product-meta">
+                    <strong>٩٩٠ ر.س</strong>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card" data-category="rings">
+                <div class="product-image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80"
+                    alt="خاتم فاخر"
+                  />
+                  <button class="wishlist" aria-label="إضافة إلى المفضلة">♥</button>
+                </div>
+                <div class="product-body">
+                  <div class="product-topline">
+                    <span>خواتم</span>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                  <h3>خاتم الحلم الذهبي</h3>
+                  <div class="product-meta">
+                    <strong>٢٬١٢٠ ر.س</strong>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="benefits">
+          <div class="container benefits-grid">
+            <div class="benefit-item">
+              <div class="benefit-icon">✦</div>
+              <h3>قطع أصلية</h3>
+              <p>كل تصميم يتم اختياره من مواد فاخرة ومضمونة الجودة.</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">✧</div>
+              <h3>خدمة مخصصة</h3>
+              <p>نساعدك في اختيار القطعة المناسبة لك ولحضورك المميز.</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">✷</div>
+              <h3>تسليم عالمي</h3>
+              <p>خدمة توصيل آمنة إلى جميع المدن مع تغليف فاخر خاص.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="story" id="story">
+          <div class="container story-inner">
+            <div class="story-image">
+              <img
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=80"
+                alt="مصمم مجوهرات"
+              />
+            </div>
+
+            <div class="story-content">
+              <p class="eyebrow">قصتنا</p>
+              <h2>إبداع يلامس كل لحظة عزيزة</h2>
+              <p>
+                تأسست Luna Jewel لتجمع بين الفن العريق والهوية العصرية، لتصنع قطعاً
+                تحمل قصة المتجر في كل تفاصيلها. نخترع التصاميم بروح فاخرة ��عكس شخصية
+                أصحابها وتزين أجمل اللحظات.
+              </p>
+              <p>
+                من خواتم الخطوبة إلى الإكسسوارات اليومية، نحرص على أن يكون كل منتج
+                مميزاً، دقيقاً، ومصنوعاً لتستمر ذكراه طويلاً.
+              </p>
+              <a href="#reviews" class="primary-btn">اقرأ تجربتنا</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">تجارب العملاء</p>
+              <h2>ماذا يقول عملاؤنا</h2>
+            </div>
+
+            <div class="review-grid">
+              <article class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p>
+                  “القطع جميلة جدًا والمواد فاخرة، وخدمة العملاء كانت ممتعة ومميزة.
+                  أنصح بها للجميع.”
+                </p>
+                <div class="review-author">
+                  <strong>سارة حمد</strong>
+                  <span>عميل مميز</span>
+                </div>
+              </article>
+
+              <article class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p>
+                  “خدمتهم مخصصة وتناسب المناسبات الخاصة، وجميع القطع تبدو أنيقة جدًا
+                  عند التقديم.”
+                </p>
+                <div class="review-author">
+                  <strong>ليلى الدوسري</strong>
+                  <span>زائرة متكررة</span>
+                </div>
+              </article>
+
+              <article class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p>
+                  “اشتريت خاتمًا كهدية لعروسي، وكان اختيارًا مثاليًا. الطابع الفاخر
+                  والتغليف كانا رائعين.”
+                </p>
+                <div class="review-author">
+                  <strong>عبدالله فهد</strong>
+                  <span>عميل جديد</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="newsletter">
+          <div class="container newsletter-inner">
+            <div>
+              <p class="eyebrow">النشرة البريدية</p>
+              <h2>انضم إلى قائمة العملاء المميزين</h2>
+            </div>
+            <form class="newsletter-form">
+              <label class="sr-only" for="email">البريد الإلكتروني</label>
+              <input id="email" type="email" placeholder="أدخل بريدك الإلكتروني" />
+              <button type="submit">اشترك الآن</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <a href="#" class="brand footer-brand">
+              <span class="brand-mark">L</span>
+              <span class="brand-text">Luna Jewel</span>
+            </a>
+            <p>مجوهرات فاخرة تُصنع لتبقى في الذاكرة.</p>
+          </div>
+
+          <div class="footer-links">
+            <h4>روابط سريعة</h4>
+            <ul>
+              <li><a href="#collections">المجموعات</a></li>
+              <li><a href="#featured">المنتجات</a></li>
+              <li><a href="#story">قصتنا</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>تواصل معنا</h4>
+            <ul>
+              <li><a href="tel:+966500000000">+966 50 000 0000</a></li>
+              <li><a href="mailto:hello@lunajewel.com">hello@lunajewel.com</a></li>
+              <li>الرياض، المملكة العربية السعودية</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
